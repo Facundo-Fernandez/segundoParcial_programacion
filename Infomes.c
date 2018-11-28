@@ -79,6 +79,7 @@ int informes_vendidasMayorA(void* lista, int i, int montoMayor)
  */
 int informes_crearInforme(int cantidadTotales, int mayor10K, int mayor20K, int totalLCD)
 {
+    int ret = -1;
     FILE* archivo = fopen("informes.txt", "w");
 
     if(archivo != NULL)
@@ -90,6 +91,7 @@ int informes_crearInforme(int cantidadTotales, int mayor10K, int mayor20K, int t
         fprintf(archivo, "-Cantidad de LCD vendidos: %d",totalLCD);
         fprintf(archivo, "\n*************************\n");
         fclose(archivo);
+        ret = 0;
     }
     return 0;
 }

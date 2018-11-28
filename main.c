@@ -25,8 +25,14 @@ int main()
     auxMayor10K = ll_count(listaDeVentas, informes_vendidasMayorA, 10000);
     auxMayor20K = ll_count(listaDeVentas, informes_vendidasMayorA, 20000);
     auxLCDVendidos = ll_count(listaDeVentas, informes_cantidadDeLCD, 0);
-    informes_crearInforme(auxVendidasTotales, auxMayor10K, auxMayor20K, auxLCDVendidos);
-    printf("> Informe creado correcamente.\n\n");
+    if(informes_crearInforme(auxVendidasTotales, auxMayor10K, auxMayor20K, auxLCDVendidos) == 0)
+    {
+        printf("> Informe creado correcamente.\n\n");
+    }
+    else
+    {
+        printf("> Error al crear el informe.\n\n");
+    }
     printf("¿Desea mostrar el informe en la consola?\n1) Si\n2) No\n\nElección: ");
     scanf("%d",&eleccion);
     switch(eleccion)

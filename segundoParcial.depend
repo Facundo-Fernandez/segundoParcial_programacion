@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1543424985 source:/home/facundo_fernandez/segundoParcial/main.c
+1543438986 source:/home/facundo_fernandez/segundoParcial/main.c
 	<stdio.h>
 	<stdlib.h>
 	"Venta.h"
@@ -25,7 +25,7 @@
 	<stdlib.h>
 	<string.h>
 
-1543423508 source:/home/facundo_fernandez/segundoParcial/Infomes.c
+1543440008 source:/home/facundo_fernandez/segundoParcial/Infomes.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
