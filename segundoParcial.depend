@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1543424985 source:/home/facundo_fernandez/segundoParcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Venta.h"
+	"Parser.h"
+	"LinkedList.h"
+	"Informes.h"
+
+1543418941 source:/home/facundo_fernandez/segundoParcial/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Venta.h"
+	"Informes.h"
+
+1543418700 /home/facundo_fernandez/segundoParcial/LinkedList.h
+
+1542929426 /home/facundo_fernandez/segundoParcial/Venta.h
+
+1542931352 source:/home/facundo_fernandez/segundoParcial/Venta.c
+	"Venta.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1543423508 source:/home/facundo_fernandez/segundoParcial/Infomes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Venta.h"
+	"Parser.h"
+
+1542932949 /home/facundo_fernandez/segundoParcial/Parser.h
+	<stdio.h>
+	<stdlib.h>
+	"Venta.h"
+	"LinkedList.h"
+	"Informes.h"
+
+1543421794 /home/facundo_fernandez/segundoParcial/Informes.h
+
+1543423231 source:/home/facundo_fernandez/segundoParcial/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Parser.h"
+	"Venta.h"
+	"Informes.h"
+
